@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sample speech thing</title>
+		<style>
+		</style>
+		<!-- Include the volume meter component -->
+		<script src="volume-meter.js"></script>
+		<!-- Include the main app logic -->
+		<script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
+
+	</head>
+	<body>
+        <img style="display: none;" src="closed-mouth.png" alt="" id="closed_mouth" />
+        <img style="display: none;" src="open-mouth.png" alt="" id="open_mouth" />
+        <button onclick="start_app()">Start</button>
+		<canvas id="meter" width="500" height="500"></canvas>
+</pre>
+	</body>
+</html>
